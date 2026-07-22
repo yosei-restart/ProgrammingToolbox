@@ -1,0 +1,16 @@
+# Programming Toolbox - 依赖清单
+# 安装：pip install -r requirements.txt
+
+# === 运行时依赖 ===
+uiautomation>=2.0.29    # Windows UI 自动化（控件识别）
+pynput>=1.7.6           # 键盘/鼠标全局事件监听（热键）
+mss>=9.0.1              # 跨平台高速截图
+Pillow>=10.0.0          # 图像处理（截图编辑、格式转换）
+psutil>=5.9.0           # 进程/系统信息（内存监控）
+PySide6>=6.5            # Qt6 GUI 框架（LGPLv3，商用友好）
+pyperclip>=1.8.2        # 剪贴板操作（复制功能）
+requests>=2.31.0        # HTTP 客户端（AI API 调用）
+keyboard>=0.13.5        # 全局热键监听
+
+# === 打包依赖（仅打包 EXE 时需要） ===
+pyinstaller>=6.0        # 打包成 Windows EXE

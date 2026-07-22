@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py,cover
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Build artifacts (PyInstaller)
+*.spec
+build/
+dist/
+
+# Generated files
+screenshots/
+logs/
+output/
+backups/
+
+# Task backup
+.task_backup/
+.task_snapshot/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Runtime config
+config.json
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Session files
+Session ID.txt
+
+# Large binary - distribute via GitHub Releases
+ProgrammingToolbox.exe
+
+# Backup files
+*.bak
+*_备份_*
+【修改前备份】_*/
+
+# PyInstaller temp
+_MEI*/
